@@ -1,19 +1,19 @@
-module github.com/bogdanfinn/fhttp
+module github.com/linostar/fhttp
 
 go 1.18
 
 require (
-	github.com/andybalholm/brotli v1.0.4
-	github.com/bogdanfinn/utls v1.5.16
-	golang.org/x/net v0.1.0
-	golang.org/x/term v0.1.0
+	github.com/andybalholm/brotli v1.0.6
+	github.com/linostar/utls v0.0.0-20231108143519-9c6c5242e16d
+	golang.org/x/net v0.10.0
+	golang.org/x/term v0.13.0
 )
 
 require (
-	github.com/klauspost/compress v1.15.12 // indirect
-	golang.org/x/crypto v0.1.0 // indirect
-	golang.org/x/sys v0.1.0 // indirect
-	golang.org/x/text v0.4.0 // indirect
+	github.com/klauspost/compress v1.17.2 // indirect
+	golang.org/x/crypto v0.14.0 // indirect
+	golang.org/x/sys v0.14.0 // indirect
+	golang.org/x/text v0.13.0 // indirect
 )
 
-// replace github.com/bogdanfinn/utls => ../utls
+// replace github.com/linostar/utls => ../utls
