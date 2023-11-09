@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	github.com/andybalholm/brotli v1.0.6
-	github.com/linostar/utls v0.0.0-20231109135306-1061afe79d52
+	github.com/linostar/utls v0.0.0-20231109143920-9e6a29d4ffba
 	golang.org/x/net v0.10.0
 	golang.org/x/term v0.13.0
 )
